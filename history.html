@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="rpscstyle.css">
+ </head>
+ <body>
+<h1 class="his-head">
+  History of your previous Games !
+</h1>
+
+<div class="rw">
+   <div>Game.no</div>
+   <div>Your Move</div>
+   <div>ComputerMove</div>
+   <div>Final Result</div>
+</div>
+ <div class="hii">
+
+
+ </div>
+  <script >
+
+let prevhtml  = '';
+
+data.forEach(element => {
+  prevhtml+=`
+  <div class="rw">
+   <div>Game.no</div>
+   <div>Your Move</div>
+   <div>ComputerMove</div>
+   <div>Final Result</div>
+</div>
+  `
+});
+
+
+     document.querySelector('.hii').innerHTML = prevhtml;
+ </script>
+ </body>
+ </html>

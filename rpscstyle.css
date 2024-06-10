@@ -1,0 +1,153 @@
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: Roboto;
+ margin-left: 12px;
+
+}
+
+.pick{
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.header{
+  height: 90px;
+  background-color: aliceblue;
+align-items: center;
+position: relative;
+}
+
+.header h1{
+ margin-bottom: -4px;
+}
+
+.navi{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+
+.navi button,.reset{
+  margin-left: 26px;
+  border-radius: 4px;
+  background-color: rgb(0, 4, 255);
+  color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  font-size: 16px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navi button:hover,.reset:hover{
+  opacity: 0.6;
+}
+.navi button:active,.reset:active{
+ scale: 0.6;
+}
+
+.res{
+  font-size: 16px;
+  font-weight: bold;
+}
+.res2{
+  font-size: 15px;
+  font-weight: 600;
+}
+.result span{
+  font-size: 20px;
+  color: blue;
+}
+
+
+.stats{
+  position: fixed;
+  bottom: 60px;
+  left: 32px;
+}
+
+.result h1{
+  text-align: center;
+}
+.stats p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.Icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Icon div img{
+  height : 100px;
+}
+
+
+.reset-div{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  flex-direction: column;
+margin-top: 32px;
+}
+
+.reset-div p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.his-button{
+ right: 8%;
+  position: absolute;
+  top: 14px;
+  border: 1px solid rgb(45, 187, 158);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.his-button:active{
+  scale:  0.6;
+}
+
+
+.history{  border-radius: 50px;
+  height: 36px;
+}
+.his-button p{
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.his-head{
+    font-family:Roboto ;
+    font-weight: bold;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 12px 0;
+}
+
+.rw{
+  margin: 12px 30px;
+  font-family:Roboto ;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .header a{
+  text-decoration: none;
+ }
